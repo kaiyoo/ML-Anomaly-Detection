@@ -19,7 +19,7 @@ Scale (Cumulative features grouped by stream_id + time-based feature) + PCA
 ## [4] Hyperparameter tuning
 >> just two examples among 6 combinations, 
 1. OCSVM + feature3
-![alt text](https://drive.google.com/file/d/1NprTcGeSJ7H5z2QPSyrB6vKWsA-4aVI9/view?raw=true)
+![alt text](https://drive.google.com/file/d/1NprTcGeSJ7H5z2QPSyrB6vKWsA-4aVI9/view)
 
 2. Iforest + feature 3
 
