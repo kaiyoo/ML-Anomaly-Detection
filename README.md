@@ -1,7 +1,8 @@
 ## [1] Overview
-Detection of network traffic anomalies using unsupervised machine learning 
+- Detection of network traffic anomalies using unsupervised machine learning 
 
 ## [2] Features
+>> More details in the anomaly_detection_reports.pdf
 - Feature1:
 Numeric value (existing + newly generated) + Standardscaler + PCA
 
@@ -17,20 +18,35 @@ Scale (Cumulative features grouped by stream_id + time-based feature) + PCA
 2. OneclassSVM
 
 ## [4] Hyperparameter tuning
+Criteria of setting a threshold:
+![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/threshold.png?raw=true)
+
 >> just two examples among 6 combinations, 
 1. OCSVM + feature3
-![alt text](https://drive.google.com/file/d/1NprTcGeSJ7H5z2QPSyrB6vKWsA-4aVI9/view?raw=true)
+![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/hp_f3_ocsvm.png?raw=true)
 
 2. Iforest + feature 3
-
+![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/f3_iforest_hp.png?raw=true)
 
 ## [5] Clustering visualisation and Evaluation
 >> just two examples among 6 combinations, 
 1. OCSVM + feature3
-![alt text](https://github.com/kaiyoo/Traffic-Map-App/blob/master/desktopview.PNG?raw=true)
+![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/R_E_ocsvm_f3.png?raw=true)
+![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/R_CV_ocsvm_f3.png?raw=true)
 
 2. Iforest + feature 3
+![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/R_E_iforest_f3.png?raw=true)
+![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/R_CV_iforest_f3.png?raw=true)
 
 
-## [6] Generating Adversarial samples (FGSM)
-FGSM generates adversarial samples with the error rate of almost 100%. 
+## [6] Interpretation of the result
+![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/FGSM.png?raw=true)
+![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/top_conversation.png?raw=true)
+
+- Attack Timeline
+![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/attack_timeline.png?raw=true)
+
+
+## [7] Generating Adversarial samples (FGSM)
+- FGSM generates adversarial samples with the error rate of almost 100%. 
+![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/FGSM.png?raw=true)
