@@ -18,9 +18,7 @@ Scale (Cumulative features grouped by stream_id + time-based feature) + PCA
 2. OneclassSVM
 
 ## [4] Hyperparameter tuning (2 examples among 6)
-- Criteria of setting a threshold:
-
-![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/threshold.png)
+- Criteria of setting a threshold:  Accuracy > 0.88 and Max(TPR-FPR)
 
 1. OCSVM + feature3
 
@@ -42,7 +40,7 @@ Scale (Cumulative features grouped by stream_id + time-based feature) + PCA
 
 ![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/R_CV_ocsvm_f3.png)
 
-2. Iforest + feature 3
+2. Iforest + feature3
 
 >> SCORES:
 
