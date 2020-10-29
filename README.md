@@ -1,5 +1,8 @@
 ## [1] Overview
 - Detection of network traffic anomalies using unsupervised machine learning 
+- Anomaly_detection.ipynb: [2]~[5]
+- Analysis.ipynb: [6] Interpretation of the result 
+- Generating_adversarial_samples.ipynb : [7] Generating Adversarial samples (FGSM), this notebook referred to this code (https://github.com/kenhktsui/adversarial_examples/blob/master/adversarial.py)
 
 ## [2] Features
 >> More details in the anomaly_detection_reports.pdf
