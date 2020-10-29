@@ -35,17 +35,27 @@ Scale (Cumulative features grouped by stream_id + time-based feature) + PCA
 >> just two examples among 6 combinations:
 1. OCSVM + feature3
 
+>> SCORES:
+
 ![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/R_E_ocsvm_f3.png?raw=true)
+
+>> CLUSTERING:
+
 ![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/R_CV_ocsvm_f3.png?raw=true)
 
 2. Iforest + feature 3
 
+>> SCORES:
+
 ![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/R_E_iforest_f3.png?raw=true)
+
+>> CLUSTERING:
+
 ![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/R_CV_iforest_f3.png?raw=true)
 
 
 ## [6] Interpretation of the result
-![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/FGSM.png?raw=true)
+![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/Interpretation_ocsvm_f3.png?raw=true)
 ![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/top_conversation.png?raw=true)
 
 - Attack Timeline
@@ -54,4 +64,5 @@ Scale (Cumulative features grouped by stream_id + time-based feature) + PCA
 
 ## [7] Generating Adversarial samples (FGSM)
 - FGSM generates adversarial samples with the error rate of almost 100%. 
+
 ![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/FGSM.png?raw=true)
