@@ -19,6 +19,7 @@ Scale (Cumulative features grouped by stream_id + time-based feature) + PCA
 
 ## [4] Hyperparameter tuning
 - Criteria of setting a threshold:
+
 ![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/threshold.png?raw=true)
 
 >> just two examples among 6 combinations, 
