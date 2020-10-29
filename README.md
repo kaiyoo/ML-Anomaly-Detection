@@ -18,23 +18,27 @@ Scale (Cumulative features grouped by stream_id + time-based feature) + PCA
 2. OneclassSVM
 
 ## [4] Hyperparameter tuning
-Criteria of setting a threshold:
+- Criteria of setting a threshold:
 ![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/threshold.png?raw=true)
 
 >> just two examples among 6 combinations, 
 1. OCSVM + feature3
+
 ![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/hp_f3_ocsvm.png?raw=true)
 
 2. Iforest + feature 3
+
 ![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/f3_iforest_hp.png?raw=true)
 
 ## [5] Clustering visualisation and Evaluation
->> just two examples among 6 combinations, 
+>> just two examples among 6 combinations:
 1. OCSVM + feature3
+
 ![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/R_E_ocsvm_f3.png?raw=true)
 ![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/R_CV_ocsvm_f3.png?raw=true)
 
 2. Iforest + feature 3
+
 ![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/R_E_iforest_f3.png?raw=true)
 ![alt text](https://github.com/kaiyoo/anomaly_detection/blob/main/imgs/R_CV_iforest_f3.png?raw=true)
 
