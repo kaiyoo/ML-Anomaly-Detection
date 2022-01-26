@@ -1,4 +1,5 @@
 ## [1] Overview
+This project was done in the subject, COMP90073 (Security Analytics) taken in Semester2, 2020 in the University of Melbourne.
 - Detection of network traffic anomalies using unsupervised machine learning 
 - Anomaly_detection.ipynb: [2]~[5]
 - Analysis.ipynb: [6] Interpretation of the result 
